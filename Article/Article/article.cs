@@ -11,7 +11,7 @@ namespace Article
         public double prix;
         public int quantite;
 
-        article(string nom, double prix, int quantite)
+        public article(string nom, double prix, int quantite)
         {
             this.nom = nom;
             this.prix = prix;
